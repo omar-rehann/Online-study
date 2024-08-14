@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Study</title>
+    <!-- code spider -------------------------------------------->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+
+    <!-- end code spider -------------------------------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- strat page -->
+    <div class="pagee">
+        <div class="continer">
+            <nav class="navbar navbar-expand-lg  bg-light text-dark fw-bold" id="one" style="width: 80%;margin: 0px auto; border-radius: 30px;padding: 10px;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"> <img src="photo/logo.png" style="width: 40px;height: 40px;margin-bottom: 5px;margin-top: 10px;" alt="">Online Study</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="course.html">Courses</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">Blog Posts</a></li>
+                                    <li><a class="dropdown-item" href="singleblog.html">Blog Single</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="eror.html">Eror Page</a></li>
+                                    <li><a class="dropdown-item" href="conct.html">Concat Us</a></li>
+
+
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Disapled</a>
+                            </li>
+                            <button class="btn btn-danger text-light rounded-pill">Search</button>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="content mb-4" id="about" style="background-color: black;text-align: center;padding: 10px;font-weight: bold;
+        padding: 10px;color: white;margin-top: 10px;border-top-left-radius: 30px;border-top-right-radius:30px;border-bottom-left-radius: 30px;border-bottom-right-radius:30px;">
+            <h2>About Us</h2>
+            <h5>Home > About Us</h5>
+        </div>
+        <div class="about" style="margin-bottom: 100px;">
+            <div class="row m-2">
+                <div class="col-md-12 col-lg-6 mb-2">
+                    <div class="imag">
+                        <img src="photo/about.jpg" class="w-100 rounded" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-lg-6 mt-2 mb-2">
+                    <div class="text">
+                        <h2>ONLINE STUDY</h2>
+                        <h1>Welcome to our Website</h1>
+                        <p> <i class="fa-solid fa-circle fa-beat-fade" style="margin-right: 5px;"></i>Aenean pulvinar pharetra pellentesque. Cras dignissim, sapien ac tempus bibendum, eros massa fermentum massa, in eleifend ipsum quam vel magna.Maecenas viverra,
+                            leo eget semper ultrices.</p>
+                        <p> <i class="fa-solid fa-circle fa-beat-fade" style="margin-right: 5px;"></i> Aenean pulvinar pharetra pellentesque. Cras dignissim, sapien ac tempus bibendum, eros massa fermentum massa, in eleifend ipsum quam vel magna.Maecenas
+                            viverra, leo eget semper ultrices.</p>
+                        <p> <i class="fa-solid fa-circle fa-beat-fade" style="margin-right: 5px;"></i>Aenean pulvinar pharetra pellentesque. Cras dignissim, sapien ac tempus bibendum, eros massa fermentum massa, in eleifend ipsum quam vel magna.Maecenas viverra,
+                            leo eget semper ultrices.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="many-card">
+            <div class="continer" style="margin-bottom: 150px;">
+                <div class="row m-2">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="text-danger">01</span>.OUR VALUES</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Nam vehicula neque id purus malesuada aliquam</h6>
+                                <p class="card-text">Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris vitae ante nec augue..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="text-danger">02</span>.OUR VALUES</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Nam vehicula neque id purus malesuada aliquam</h6>
+                                <p class="card-text">Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris vitae ante nec augue..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="text-danger">03</span>.OUR VALUES</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Nam vehicula neque id purus malesuada aliquam</h6>
+                                <p class="card-text">Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris vitae ante nec augue..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="text-danger">04</span>.OUR VALUES</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Nam vehicula neque id purus malesuada aliquam</h6>
+                                <p class="card-text">Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris vitae ante nec augue..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="text-danger">05</span>.OUR VALUES</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Nam vehicula neque id purus malesuada aliquam</h6>
+                                <p class="card-text">Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris vitae ante nec augue..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="text-danger">06</span>.OUR VALUES</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Nam vehicula neque id purus malesuada aliquam</h6>
+                                <p class="card-text">Donec interdum magna ac libero mattis porta. Nulla in mauris aliquam convallis. Mauris vitae ante nec augue..</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="group-landing">
+            <div class="continer" style="margin-bottom: 150px;">
+                <div class="row m-3 text-center">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="image">
+                            <img src="photo/stats1.png" class="w-100 " alt="">
+                            <h1 class="text-danger">5,100</h1>
+                            <h4>TOTAL COURSES</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="image">
+                            <img src="photo/stats2.png" class="w-100 " alt="">
+                            <h1 class="text-danger">971</h1>
+                            <h4>EXPERT TEACHERS</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="image">
+                            <img src="photo/stats3.png" class="w-100 " alt="">
+                            <h1 class="text-danger">7,600</h1>
+                            <h4>HAPPY STUDENTS</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="image">
+                            <img src="photo/stats4.png" class="w-100" alt="">
+                            <h1 class="text-danger">367</h1>
+                            <h4>AWARDS WON</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="watch">
+            <div class="continer" style="margin-bottom: 150px;">
+                <div class="row m-1 align-items-center">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="text">
+                            <h1 class="f-bold">YOU CAN WATCH NOW OUR ONLINE COURSES!</h1>
+                            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, consequatur voluptatem ad.</p>
+                            <button class="btn btn-danger text-white p-3">Play Video <i class="fa-solid fa-angles-right fa-beat" style="margin-left: 3px;color: #f2f2f2;"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="image mt-2 position-relative">
+                            <img src="photo/video.jpg" class="w-100 rounded" alt="">
+                            <i class="fa-solid fa-play position-absolute top-50 start-50 translate-middle p-2" style="margin: 0px auto;text-align:center;font-size: 50px;background-color: white;padding: 30px;border:  solid 2px white;border-radius: 50%;color: white;background-color: transparent;cursor: pointer;"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- coder spider ------------------------------------------------------------------------------------------>
+        <!-- start TESTIMONIALS -->
+        <div class="test" style="margin-top: 30px;">
+            <div class="continer text-center bg-dark text-light p-5 rounded w-100">
+                <h4 class="text-light w-100">TESTIMONIALS</h4>
+                <h2>What They Are Saying About Us
+
+
+
+                </h2>
+            </div>
+            <div class="content m-2">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" slides-per-view="3">
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="photo/testimonials-1.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;" alt="">
+                            <h4>Mulla Sane</h4>
+                            <h5 class="text-black-50"> Store Owner</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="photo/testimonials-2.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;" alt="">
+                            <h4>Mia Sane</h4>
+                            <h5 class="text-black-50"> Helper Owner</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="photo/testimonials-3.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;" alt="">
+                            <h4>Matt Brandon</h4>
+                            <h5 class="text-black-50"> Designer</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="photo/testimonials-4.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;" alt="">
+                            <h4>John Amado</h4>
+                            <h5 class="text-black-50"> Ceo Founder</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="photo/testimonials-5.jpg" style="border-radius: 50%;width: 200px;margin:  0 auto;" alt="">
+                            <h4>Amado Jold Ba</h4>
+                            <h5 class="text-black-50"> Store Owner</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="https://img.freepik.com/free-photo/hesitant-puzzled-unshaven-man-shruggs-shoulders-bewilderment-feels-indecisive-has-bristle-trendy-haircut-dressed-blue-stylish-shirt-isolated-white-wall-clueless-male-poses-indoor_273609-16518.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph"
+                                style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;" alt="">
+                            <h4>Amankona Ba</h4>
+                            <h5 class="text-black-50"> Ceo - Founder</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;" alt="">
+                            <h4>Olia Balee</h4>
+                            <h5 class="text-black-50"> Ceo - Founder</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="https://img.freepik.com/free-photo/satisfied-handsome-bearded-millennial-guy-purple-tshirt-showing-okay-gesture-express-delighted-overjoy-good-concept-approve-awesome-idea-recommend-product-leave-positive-feedback_176420-51842.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph"
+                                style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;" alt="">
+                            <h4>Aristed Bance</h4>
+                            <h5 class="text-black-50"> Ceo - Founder</h5>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="boxx" style="background-color: #ddd; padding: 10px;border-radius: 10px;">
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <i class="fa-solid fa-star" style="color: #e6e600;"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente laboriosam dolores? Architecto ducimus id, nihil aperiam numquam quam vero unde fugiat nemo hic iste velit impedit eveniet ab quisquam voluptatum
+                                explicabo mollitia magnam vitae temporibus pariatur! Ducimus rem, veniam perferendis cum ad, provident, beatae vel quas corporis reprehenderit minus!</p>
+                            <img src="https://img.freepik.com/free-photo/happy-confident-male-entrepreneur-with-postive-smile-has-beard-mustache-keeps-arms-folded-being-high-spirit-after-successful-meeting-with-partners-poses-against-white-wall-dressed-casually_273609-16228.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph"
+                                style="border-radius: 50%;width: 200px;height: 200px;;margin:  0 auto;" alt="">
+                            <h4>Eze Emaka</h4>
+                            <h5 class="text-black-50"> Ceo - Founder</h5>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+
+            </div>
+        </div>
+        <!-- end TESTIMONIALS -->
+        <!-- coder spider------------------------------------------------------------------------------------------ -->
+        <div class="techer mt-2">
+            <div class="content" style="margin-bottom: 150px;">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card  mb-2 rounded" style="width: 100%;">
+                            <img src="photo/team1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Chris Tina</h5>
+                                <h5>Web Designer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card mb-2 rounded" style="width: 100%;">
+                            <img src="photo/team2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Diego Mota</h5>
+                                <h5>Html,css</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card mb-2 rounded" style="width: 100%;">
+                            <img src="photo/team3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Anton Bone</h5>
+                                <h5>Ui/Ux Designer</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card mb-2 rounded" style="width: 100%;">
+                            <img src="photo/team4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Nyoe Achi</h5>
+                                <h5>Web Designer</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer position-relative" style="background-color: #060e1f;color: white;padding: 10px;border-radius: 10px;">
+            <div class="info d-none d-lg-block position-absolute top-0 start-50 translate-middle" style="margin-bottom: 200px;margin-top: 10px;">
+                <div class="continer text-center bg-danger p-4 rounded">
+                    <h2>Do You Want To Our Best Popular Outline courses</h2>
+                    <button class="btn btn-dark text-light p-2">Get Started</button>
+                </div>
+            </div>
+            <div class="continer" style="margin-top: 130px;">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-1">
+                        <div class="box ">
+                            <h4>About</h4>
+                            <hr>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                            <div class="icon d-flex justify-content-between">
+                                <i class="fa-brands fa-facebook" style="background-color: #353636;color: white;padding: 10px;border-radius: 20px;"></i>
+                                <i class="fa-brands fa-facebook-messenger" style="background-color: #353636;color: white;padding: 10px;border-radius: 20px;"></i></i>
+                                <i class="fa-brands fa-instagram" style="background-color: #353636;color: white;padding: 10px;border-radius: 20px;"></i></i>
+                                <i class="fa-brands fa-snapchat" style="background-color: #353636;color: white;padding: 10px;border-radius: 20px;"></i></i>
+                                <i class="fa-brands fa-pinterest-p" style="background-color: #353636;color: white;padding: 10px;border-radius: 20px;"></i></i>
+                                <i class="fa-brands fa-linkedin" style="background-color: #353636;color: white;padding: 10px;border-radius: 20px;"></i></i>
+                                <i class="fa-brands fa-github" style="background-color: #353636;color: white;padding: 10px;border-radius: 20px;"></i></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-1">
+                        <h4>Quilk Links</h4>
+                        <hr>
+                        <div class="links">
+                            <div class="box">
+                                <ul style="list-style-type: none;">
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>Home</a></li>
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>About</a></li>
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>Contacy</a></li>
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>Courese</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-1">
+                        <h4>Help & Supports</h4>
+                        <hr>
+                        <div class="links">
+                            <div class="box">
+                                <ul style="list-style-type: none;">
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>Live Chart</a></li>
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>Faq</a></li>
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>Supports</a></li>
+                                    <li><a href="#" style="text-decoration: none;color: white;font-weight: bold;"><i class="fa-solid fa-angles-right" style="color: white;margin-right: 10px;"></i>term Of Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4>Contact </h4>
+                        <hr>
+                        <div class="links">
+                            <h5><i class="fa-solid fa-envelopes-bulk" style="margin-right: 5px;color: white;"></i>info@mail.com</h5>
+                            <h5><i class="fa-solid fa-phone" style="margin-right: 5px;color: white;"></i>+44-0000-99-00</h5>
+                            <h5><i class="fa-solid fa-location-dot" style="margin-right: 5px;color: white;"></i>lonodon,234 teryy,10010</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- end page -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
